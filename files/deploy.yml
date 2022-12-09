@@ -4,6 +4,7 @@ metadata:
   name: my-deployment
   labels:
      app: nginx
+   namespace: demo
 spec:
   replicas: 1
   selector:
